@@ -1,0 +1,44 @@
+Index: .gitignore
+===================================================================
+diff --git a/.gitignore b/.gitignore
+deleted file mode 100644
+--- a/.gitignore	(revision 3bb6eec9040c3453de6cfc527e69092eea2627b3)
++++ /dev/null	(revision 3bb6eec9040c3453de6cfc527e69092eea2627b3)
+@@ -1,37 +0,0 @@
+-HELP.md
+-.gradle
+-build/
+-!gradle/wrapper/gradle-wrapper.jar
+-!**/src/main/**/build/
+-!**/src/test/**/build/
+-
+-### STS ###
+-.apt_generated
+-.classpath
+-.factorypath
+-.project
+-.settings
+-.springBeans
+-.sts4-cache
+-bin/
+-!**/src/main/**/bin/
+-!**/src/test/**/bin/
+-
+-### IntelliJ IDEA ###
+-.idea
+-*.iws
+-*.iml
+-*.ipr
+-out/
+-!**/src/main/**/out/
+-!**/src/test/**/out/
+-
+-### NetBeans ###
+-/nbproject/private/
+-/nbbuild/
+-/dist/
+-/nbdist/
+-/.nb-gradle/
+-
+-### VS Code ###
+-.vscode/
